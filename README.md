@@ -8,5 +8,6 @@ Also created intents.json file for the input to train the model. The intents.jso
 
 To run the model
 First run the train.py file, that will dump the data.pth file.
-Then run the chat.py file
+Then run the chat.py file or run the app.py file
 
+![Capture](https://user-images.githubusercontent.com/67755812/210604118-78db1349-ca72-41fe-83af-f2eb666b5af6.PNG)
