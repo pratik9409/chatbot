@@ -1,0 +1,87 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "Hello",
+                "How are you"
+            ],
+            "responses":[
+                "Hey!!",
+                "Hii there, How can I help?",
+                "Hello, What can I do for you?",
+                "Hello there, Hope you're having a good day" 
+            ]
+        },
+
+        {
+            "tag":"bye",
+            "patterns":[
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses":[
+                "Bye, Thank you for visiting",
+                "See you soon",
+                "Bye, Hope you have got what you needed. Thank you",
+                "Have a nice day"
+            ]
+        },
+
+        {
+            "tag":"thanks",
+            "patterns":[
+                "Thanks",
+                "Thank You",
+                "Thank you ver much"
+            ],
+            "responses":[
+                "Happy to help",
+                "My Pleasure"
+            ]
+        },
+
+        {
+            "tag":"items",
+            "patterns":[
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?"
+              ],
+              "responses": [
+                "We sell Shirts, T-Shirts, Pants and Hoodies",
+                "We have Shirts, T-Shirts, Pants and Hoodies"
+              ]
+        },
+
+        {
+            "tag": "payments",
+            "patterns": [
+               "Do you take credit cards?",
+               "Do you accept Mastercard?",
+               "Can I pay with Paypal?",
+               "Are you cash only?"
+            ],
+            "responses": [
+              "We accept VISA, Mastercard and Paypal",
+              "We accept most major credit cards, and Paypal"
+            ]
+        },
+
+        {
+            "tag": "delivery",
+            "patterns": [
+              "How long does delivery take?",
+              "How long does shipping take?",
+              "When do I get my delivery?"
+            ],
+            "responses": [
+              "Delivery takes 4-5 days",
+              "Shipping takes 4-5 days"
+            ]
+        }  
+    ]
+}
